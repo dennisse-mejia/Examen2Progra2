@@ -118,7 +118,7 @@ public class MainMenuGUI extends JFrame {
 
     public static void main(String[] args) {
         try {
-            PSNUsers psnUsers = new PSNUsers("psn.dat", "trophies.dat");
+            PSNUsers psnUsers = new PSNUsers("psn.txt", "trophies.txt");
             MainMenuGUI mainMenu = new MainMenuGUI(psnUsers);
             mainMenu.setVisible(true);
         } catch (Exception e) {

@@ -27,6 +27,8 @@ public class HashTable {
             current.setNext(newEntry);
         }
     }
+    
+    
 
     public boolean remove(String username) {
         if (head == null) {
